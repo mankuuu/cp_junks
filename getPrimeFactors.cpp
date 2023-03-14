@@ -1,4 +1,4 @@
-void getPrimeFactors(int n)
+void getPrimeFactors(int n)			//O(sqrt(n)) in case of n = Prime Number
 {
 	if(n<=1)
 		return;
