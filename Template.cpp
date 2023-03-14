@@ -9,6 +9,13 @@ using namespace std;
 #define cy cout<<"YES\n";
 #define cn cout<<"NO\n";
 
+void fast()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
+}
+
 
 void solve()
 {
@@ -18,9 +25,7 @@ void solve()
 //Main Function
 int main()
 {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-    cout.tie(NULL);
+    fast();    
     int test;
     cin >> test;
     while(test--)
