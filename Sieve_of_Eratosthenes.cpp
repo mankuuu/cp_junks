@@ -1,4 +1,4 @@
-void sieve(int n)
+void sieve(int n)						//O(nloglogn)
 {
 	vector <bool> isPrime(n+1, true);
 	for(int i=2; i<=n; i++)
