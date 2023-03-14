@@ -1,9 +1,9 @@
 ///// nCr /////
-ll nCr(ll n, ll r)
+int nCr(int n, int r)
 {
   if (n < r)
     return 0;
-  ll p = 1, k = 1;
+  int p = 1, k = 1;
   if (n - r < r)
     r = n - r;
  
@@ -13,7 +13,7 @@ ll nCr(ll n, ll r)
     {
       p *= n;
       k *= r;
-      long long m = __gcd(p, k);
+      int m = __gcd(p, k);
       p /= m;
       k /= m;
       n--;
