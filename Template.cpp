@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-#define ll long long
+#define int long long
 #define vi vector<int>
 #define mi map<int>
 #define pub push_back
