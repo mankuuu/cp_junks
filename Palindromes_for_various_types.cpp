@@ -17,3 +17,12 @@ bool ispal(int n)
     return false;
   }
 }
+
+
+///// PALINDROME FOR STRING /////
+bool ispal(string &s, int start, int end) {
+  if(start>=end) {
+    return true;
+  }
+return (s[start]==s[end] && ispal(s,start+1, end-1));
+}
