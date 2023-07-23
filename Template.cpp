@@ -3,7 +3,7 @@ using namespace std;
 
 #define int long long
 #define vi vector<int>
-#define mi map<int>
+#define mi map<int,int>
 #define pub push_back
 #define si set<int>
 #define cy cout<<"YES\n";
