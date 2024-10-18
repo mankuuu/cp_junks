@@ -33,7 +33,7 @@ class DisjointSet {
         } else {
             parent.set(ulp_v , ulp_u);
             int rankU = rank.get(ulp_u);
-            rank.set(ulp_u , rnakU + 1);
+            rank.set(ulp_u , rankU + 1);
         }
     }
 
